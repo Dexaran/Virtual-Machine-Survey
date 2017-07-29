@@ -32,8 +32,14 @@ VM, однако, на вход тоже получает не исходник�
 
 Solidity -> AST -> SOLC_ir -> SOLC optimization -> EthereumVM bytecode <-> processor op-codes
 
+
+![alt text](https://github.com/Sparke2/Virtual-Machine-Survey/blob/master/code_runtime.png)
+
 В обновлении протокола 'Metropolis' будет реализована виртуальная машина [web assembly](https://en.wikipedia.org/wiki/WebAssembly) (eWASM - версия виртуальной машины для Ethereum), для которой есть LLVM back end.
 
 ## Как будет реализовано преобразование кода Solidity после Metropolis
 
 Solidity -> AST -> LLVM_ir -> LLVM optimization -> eWASM bytecode <-> processor op-codes
+
+
+![alt text](https://github.com/Sparke2/Virtual-Machine-Survey/blob/master/ewasn_bytecode_runtime.png)
